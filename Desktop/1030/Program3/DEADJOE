@@ -1,0 +1,711 @@
+
+*** These modified files were found in JOE when it aborted on Sun Nov  4 19:36:13 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Thu Nov  8 18:14:22 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program3.c'
+/*
+*Programer: Enrique Torres (et0132@unt.edu)
+*Course: CSE 1030 Computer Science 1
+*Due Date: 11/12/2012
+*/
+#include <stdio.h>
+
+int main() {
+
+double num_cal;
+double num_process;
+double value;
+
+do {
+  printf ("How many times to perform the calculation (2-5): ");
+  scanf ("%lf",&num_cal);
+  if (num_cal >= 2 && num_cal <= 5) break; 
+  printf ("The value is out of range. Please try again.\n\n");
+} while (1);
+  
+do {
+  printf ("How many numbers to process (4-10): ");
+  scanf ("%lf",&num_process);
+  if (num_process >=4 && num_process <= 10) break;
+  printf ("The value is out of range. Please try again.\n");
+} while (2);
+
+
+
+return 0;
+}
+*** File '(Unnamed)'
+lab9program.c
+lab9program.c
+lab9program.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Thu Nov  8 22:44:05 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+
+*** These modified files were found in JOE when it aborted on Fri Nov  9 22:08:58 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+
+*** These modified files were found in JOE when it aborted on Sat Nov 10 22:20:20 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program32.c'
+
+#include <stdio.h>
+
+int main() {
+
+int num_cal;
+int num_process;
+double values;
+double sum;
+double average;
+int i;
+int j;
+double num;
+
+do {
+    printf ("How many times to perform the calculation (2-5): ");
+    
+    scanf ("%d",&num_cal);
+    
+    if (num_cal < 2 || num_cal > 5) 
+    
+    printf ("The value is out of range. Please try again.\n\n");
+    
+ } while (num_cal < 2 || num_cal > 5);
+ 
+ 
+
+for ( i = 1; i <= num_cal; i++){ 
+     
+        
+  do {
+    printf ("How many numbers to process (4-10): ");
+    
+    scanf ("%d",&num_process);
+    
+    if (num_process < 4 || num_process > 10)
+     
+    printf ("The value is out of range. Please try again.\n");
+    
+    } while (num_process < 4 || num_process > 10);
+  
+   
+  for ( j =1; j <= num_process; j++) { 
+    
+  
+   
+    
+  do{ 
+    printf ("Enter value %lf (-27.3 - 1002.6): ",num);
+    
+    scanf ("%lf",&values);
+    
+    if (values < -27.3 || values > 1002.6)
+    
+    printf ("The value is out of range. Please try again.\n");
+    
+    } while (values < -27.3 || values > 1002.6);
+  
+   sum = 0;
+   sum = sum + values;
+   
+   printf ("The total of the values was %4.4lf.\n",sum);
+   
+   average = sum / (num_process);
+   
+   printf ("The average of the values was %4.4lf.\n",average);
+   
+   
+  
+   
+   
+   
+   
+}
+}
+                
+return 0;
+} 
+
+      
+        
+*** File '(Unnamed)'
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+
+*** These modified files were found in JOE when it aborted on Sun Nov 11 14:04:42 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program33.c'
+#include <stdio.h>
+
+int main() {
+
+int num_cal;
+int set;
+int num_process;
+double values;
+double sum;
+double average;
+int i;
+int j;
+int num;
+
+do {
+    printf ("How many times to perform the calculation (2-5): ");
+    
+  scanf ("%d",&num_cal);
+        
+  if (num_cal < 2 || num_cal > 5)
+            
+  printf ("The value is out of range. Please try again.\n\n");
+                
+   } while (num_cal < 2 || num_cal > 5);
+                 
+                 
+   i = 1;
+   while (i <= num_cal){
+                 
+                 
+ do {
+   printf ("How many numbers to process (4-10): ");
+                       
+   scanf ("%d",&num_process);
+                           
+   if (num_process < 4 || num_process > 10)
+                               
+  printf ("The value is out of range. Please try again.\n");
+                                   
+ } while (num_process < 4 || num_process > 10);
+                                       
+                                       
+  
+                                         
+                                       
+                                         
+                                         
+     do {
+     printf ("Enter value %d (-27.3 - 1002.6): ",num);
+                                               
+                                               
+        }
+                                                                                         }
+                                                                                                                                                                          return 0;
+                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                                                                                                                                    return 0;
+                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                             }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    return 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         scanf ("%lf",&values);
+                                                   
+     if (values < -27.3 || values > 1002.6)
+                                                   
+     printf ("The value is out of range. Please try again.\n");
+     } while (values < -27.3 || values > 1002.6);
+                                                           
+                                                           
+    j = 1;
+    while (j <= num_process){                                                       
+                                                           
+                                                           
+                                                           }
+                                                           }
+                                                           }
+                                                           return 0;
+                                                           }
+*** File '(Unnamed)'
+program32.c
+program32.c
+program33.c
+program33.c
+program33.c
+program33.c
+program33.c
+program33.c
+program33.c
+program33.c
+program33.c
+
+*** These modified files were found in JOE when it aborted on Sun Nov 11 17:32:59 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+program32.c
+nestedLoopEx1.c
+nestedLoopEx1.c
+nestedLoopEx2.c
+nestedLoopEx2.c
+program32.c
+
+*** These modified files were found in JOE when it aborted on Sun Nov 11 21:21:56 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program3.c'
+/*
+*Programer: Enrique Torres (et0132@unt.edu)
+*Course: CSE 1030 Computer Science 1
+*Due Date: 11/12/2012
+*/
+#include <stdio.h>
+
+int main() {
+
+int num_cal;
+int set;
+int num_process;
+double values;
+int i;
+int j;
+int num;
+double total;
+double average;
+double largest_value;
+double smallest_value;
+int positive;
+int negative;
+
+do {
+  printf ("How many times to perform the calculation (2-5): ");
+  scanf ("%d",&num_cal);
+  if (num_cal < 2 || num_cal > 5)  
+  printf ("The value is out of range. Please try again.\n\n");
+} while (num_cal < 2 || num_cal > 5);
+printf ("\n");
+  
+  i = 1;
+  while (i <= num_cal){
+  
+  
+do {
+  printf ("How many numbers to process (4-10): ");
+  scanf ("%d",&num_process);
+  if (num_process < 4 || num_process > 10)
+  printf ("The value is out of range. Please try again.\n");
+} while (num_process < 4 || num_process > 10);
+printf ("\n");
+
+
+  
+  
+
+do {
+  printf ("Enter a value %d (-27.3 - 1002.6): ",num);
+  scanf ("%lf",&values);
+  if (values < -27.3 || values > 1002.6)
+  printf ("The value is out of range. Please try again.\n");
+} while (values < -27.3 || values > 1002.6);
+
+  
+  
+  printf ("Result of the calculations:\n");
+  total = total + values;
+  
+  printf ("The total of values was %lf\n", total);
+  average = total / num_process;
+  
+  printf ("The average of the values was %lf\n", average);
+  
+ for (i = 0; i <= values; i++) {
+ if (values > largest_value)
+ largest_value = values; 
+  }
+  printf ("The largest value was %lf\n",largest_value);
+ for (j = 0; j >= values; j--) {
+ if (values < smallest_value)
+ smallest_value = values;
+  }
+  printf ("The smallest value was %lf\n",smallest_value);
+  
+  printf ("The number of positive values: %d\n",positive);
+  
+  printf ("The number of negative values: %d\n",negative);
+ 
+ 
+    
+ j = 1;
+ while (j <= num_process){ 
+
+  j++;
+}  
+  
+  
+  i++;  
+}
+return 0;
+}
+*** File '(Unnamed)'
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Mon Nov 12 16:57:25 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program3.c'
+/*
+*Programer: Enrique Torres (et0132@unt.edu)
+*Course: CSE 1030 Computer Science 1
+*Due Date: 11/12/2012
+*/
+#include <stdio.h>
+
+int main() {
+
+int num_cal;
+int num_process;
+double values;
+int i;
+int j;
+int k;
+int l;
+double sum;
+double average;
+double largest_value;
+double smallest_value;
+int positive;
+int negative;
+
+printf ("CSE 1030 Program Three - Enrique Torres - enriquetorres73@yahoo.com\n\n");
+
+do {
+  printf ("How many times to perform the calculation (2-5): ");
+  scanf ("%d",&num_cal);
+  if (num_cal < 2 || num_cal > 5)  
+  printf ("The value is out of range. Please try again.\n\n");
+} while (num_cal < 2 || num_cal > 5);
+printf ("\n");
+  
+  i = 1;
+  while (i <= num_cal){
+  printf ("Set of calculations %d ========================================\n\n",i);
+  i++; 
+ 
+  
+do {
+  printf ("How many numbers to process (4-10): ");
+  scanf ("%d",&num_process);
+  if (num_process < 4 || num_process > 10)
+  printf ("The value is out of range. Please try again.\n");
+} while (num_process < 4 || num_process > 10);
+  printf ("\n");
+  j = 1; 
+  sum = 0.0;
+  
+  
+  while (j <= num_process){
+  
+  
+do {
+  printf ("Enter a value %d (-27.3 - 1002.6): ",j);
+  scanf ("%lf",&values);
+  if (values < -27.3 || values > 1002.6)
+  printf ("The value is out of range. Please try again.\n");
+} while (values < -27.3 || values > 1002.6);
+  
+
+ 
+ 
+ sum = sum + values;
+ average = sum / num_process;
+ 
+ if (j == 1) largest_value = values;
+ else if ( values > largest_value)
+ largest_value = values;
+ 
+ if (j == 1) smallest_value = values;
+ else if ( values < smallest_value)
+ smallest_value = values;
+ 
+ if (values >= 0 && values <= 1002.6) positive = values;
+ values++;
+ 
+
+
+j++;
+}
+  printf ("\n");  
+  
+  printf ("Result of the calculations:\n");
+  
+  printf ("The total of values was %.2lf\n", sum);
+  
+  printf ("The average of the values was %.2lf\n", average);
+  
+   printf ("The largest value was %.2lf\n",largest_value);
+ 
+  printf ("The smallest value was %.2lf\n",smallest_value);
+  
+  printf ("The number of positive values: %d\n",positive);
+  
+  printf ("The number of negative values: %d\n",negative);
+ 
+} 
+return 0;
+}
+*** File '(Unnamed)'
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Mon Nov 12 20:07:07 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'program3.c'
+/*
+*Programer: Enrique Torres (et0132@unt.edu)
+*Course: CSE 1030 Computer Science 1
+*Due Date: 11/12/2012
+*Decription: This program function is to enter a set of calculations respect to the 
+users input of values to give the sum, average, and to find the largest and smallest value,
+and to find the number of positive and negative values.
+*/
+#include <stdio.h>
+
+int main() {
+
+int num_cal;
+int num_process;
+double values;
+int i;
+int j;
+int k;
+int l;
+double sum;
+double average;
+double largest_value;
+double smallest_value;
+int positive;
+int negative;
+
+printf ("CSE 1030 Program Three - Enrique Torres - enriquetorres73@yahoo.com\n\n");
+// get from user a number in the range of 2 to 5
+do {
+  printf ("How many times to perform the calculation (2-5): ");
+  scanf ("%d",&num_cal);
+  if (num_cal < 2 || num_cal > 5)  
+  printf ("  The value is out of range. Please try again.\n\n");
+} while (num_cal < 2 || num_cal > 5);
+printf ("\n");
+  
+  i = 1;
+  while (i <= num_cal){
+  printf ("Set of calculations %d ========================================\n\n",i);
+  i++; 
+ 
+//get from user a number in the range of 4 to 10
+do {
+  printf ("How many numbers to process (4-10): ");
+  scanf ("%d",&num_process);
+  if (num_process < 4 || num_process > 10)
+  printf ("  The value is out of range. Please try again.\n");
+} while (num_process < 4 || num_process > 10);
+  printf ("\n");
+  j = 1;
+  sum = 0.0;
+  k = 0;
+  l = 0;
+ 
+  
+  while (j <= num_process){
+  
+ // values entered 
+do {
+  printf ("Enter a value %d (-27.3 - 1002.6): ",j);
+  scanf ("%lf",&values);
+  if (values < -27.3 || values > 1002.6)
+  printf ("  The value is out of range. Please try again.\n");
+} while (values < -27.3 || values > 1002.6);
+  
+
+ 
+ // sum and average of values
+ sum = sum + values;
+ average = sum / num_process;
+ // The largest and smallest values
+ // asume the largest is the first value
+ if (j == 1) largest_value = values;
+ else if ( values > largest_value)
+ largest_value = values;
+ // asume the smallest is the first value
+ if (j == 1) smallest_value = values;
+ else if ( values < smallest_value)
+ smallest_value = values;
+ 
+ 
+ if ( k > 0 && k <= 1002.6 )
+ k++; 
+ 
+ 
+ if ( l < 0 ) l++;
+ 
+
+j++;
+}
+
+
+  printf ("\n");  
+  
+  printf ("Result of the calculations:\n");
+  
+  printf ("The total of values was %.2lf\n", sum);
+  
+  printf ("The average of the values was %.2lf\n", average);
+  
+   printf ("The largest value was %.2lf\n",largest_value);
+ 
+  printf ("The smallest value was %.2lf\n",smallest_value);
+  
+  printf ("The number of positive values: %d\n",k);
+  
+  printf ("The number of negative values: %d\n",l);
+ 
+} 
+return 0;
+}
+*** File '(Unnamed)'
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Mon Nov 12 21:50:08 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+program3.c
+
+*** These modified files were found in JOE when it aborted on Wed Feb 13 11:29:27 2013
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+major1.c
+program3.c

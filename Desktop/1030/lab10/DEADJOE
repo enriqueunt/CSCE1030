@@ -1,0 +1,97 @@
+
+*** These modified files were found in JOE when it aborted on Tue Nov 13 10:26:17 2012
+*** JOE was aborted because the terminal closed
+
+*** File 'lab10program.c'
+/*
+ *Author: Enrique Torres (et0132@unt.edu)
+ *Class: CSCE 1030
+ *Date: 11/13/2012
+ *Description:
+ */
+ 
+ #include <stdio.h>
+ 
+ #define PI 3.14159F
+ 
+ // Calculate the area of a circle
+ float area_circle(float radius){
+ if (radius < 0){
+ return -1.0F;
+ }else {
+ return PI*radius*radius;
+ }
+} 
+ 
+
+void printArea (float area){
+    if (area<0.0F){
+        printf ("Invalid args!\n");
+    } else {
+    printf ("Area=%.2f\n",area);
+    }
+}
+
+ 
+
+
+int main() {
+   char shape;	//shape code
+   float arg1, arg2; //arguments for shapes
+   float area;	// the area of a shape
+   int end;
+        printf("Calculate the area of a shape given code and parameters.\n");
+        printf("Shape codes: Cicle (c|C) Rectangle (r|R) Triangle (t|T) \n");
+        printf("Enter <shape> <arg1> [: ");
+        scanf ("%c",&shape);
+        do { 
+            switch(shape){
+                    case 'c': 
+                              
+                              
+                          
+                    case 'C':// get the radius using??
+                            scanf ("%f",&arg1);
+                             // claculate the are using ??
+                             area = area_circle(arg1);
+                             // print tha are using ??
+                             printArea(area);
+                             break;
+                          default: printf("Invalid shape: %c(%d)\n", shape, shape);
+                    
+                           
+                    
+                    
+                            end = 1;
+            }
+        } while (area < 0);
+        return 0;
+  }
+*** File '(Unnamed)'
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+
+*** These modified files were found in JOE when it aborted on Tue Nov 13 17:02:29 2012
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c
+lab10program.c

@@ -1,0 +1,128 @@
+
+*** These modified files were found in JOE when it aborted on Wed Nov  7 13:16:20 2012
+*** JOE was aborted by UNIX signal 15
+
+*** File 'lab9program.c'
+/*
+ *Author: Enrique Torres (et0132@unt.edu)
+ *Class:CSE 1030
+ *Date:
+ *Description: This program is assign to enters user name corresponding with its full name
+ the asks to enter a string with 8 characters, which the first three characters are be 
+ changed to Abc, and the last three characters change to their successors.
+ */
+ #include <stdio.h>
+ #include <string.h>
+
+ int main() {
+ 
+   char firstname[30];
+   char lastname[30];
+   char middlename[30];
+   char fullname[30];
+   int len;
+   char string[256];
+   char lastlen;
+
+  
+   printf ("Please enter your first name: ");
+   scanf ("%s",firstname);
+   printf ("Please enter your last name: ");
+   scanf ("%s",lastname);
+   printf ("Please enter your middle name: ");
+   scanf ("%s",middlename);
+   
+   strcpy (fullname, lastname);
+   strcat (fullname, ", ");
+   strcat (fullname, firstname);
+   strcat (fullname, ", ");
+   strcat (fullname, middlename);
+   printf ("Welcome: %s\n\n",fullname);
+   
+   
+
+   do{  
+   printf ("Enter a string at least 8 characters long: ");
+   scanf ("%s",string);
+   len = strlen(string);
+     
+   if (len < 8)
+     printf ("String too short!\n");
+     
+  } while (len < 8);
+
+  if (len >= 8)
+  printf ("Valid string:%s\n",string);
+  
+  //The first three characters changed to Abc
+  string[0] = 'A';
+  string[1] = 'b';
+  string[2] = 'c';
+     
+  //change the last three characters to their successors
+   
+   
+   
+    len = strlen(string);
+   
+  string[len-1] = string[len-1] + 1;
+  string[len-2] = string[len-2] + 1;
+  string[len-3] = string[len-3] + 1;
+  
+  if (len = 'z')
+  string[z] = 'a';
+  
+                 
+  printf ("Change a):%s\n",string);
+  
+  
+ 
+  for (len=strlen(string)-1; len >=0; len--)
+  
+  
+   
+ 
+  printf ("%c",string[len]);
+  
+  printf ("\n\n");
+  
+  
+ 
+    
+  
+            
+  
+   
+  
+  return 0;
+  }                                                      
+                                                   
+                                                                     
+                                                                  
+                                                                           
+                                                                             
+                                                                           
+                                                                               
+                                                                                 
+                                                                                                                                                  
+                                                                                                                                                            
+                                                                                                                                                                                                             
+                                                                                                          
+                                                                                                                                                                                                                                                                                           
+                                                                                                              
+                                 
+*** File '(Unnamed)'
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+lab9program.c
+
+*** These modified files were found in JOE when it aborted on Mon Feb  4 13:38:27 2013
+*** JOE was aborted because the terminal closed
